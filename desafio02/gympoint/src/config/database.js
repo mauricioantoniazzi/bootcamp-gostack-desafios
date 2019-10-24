@@ -1,10 +1,12 @@
+import dotenv from 'dotenv/config';
+
 module.exports = {
-  username: 'postgres',
-  password: 'postgres',
-  database: 'gympoint',
-  host: '127.0.0.1',
+  username: process.env.DB_USER,
+  password: process.env.DB_PASS,
+  database: process.env.DB_NAME,
+  host: process.env.DB_HOST,
   dialect: 'postgres',
-  port: 5432,
+  port: process.env.DB_PORT,
   define: {
     timestamps: true,
     underscored: true,
