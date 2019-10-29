@@ -1,39 +1,39 @@
-{
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.fontFamily": "'Fira Code'",
-  "editor.fontLigatures": true,
-  "workbench.colorTheme": "Dracula",
-  "terminal.integrated.fontFamily": "monospace",
-  "editor.fontSize": 18,
-  "editor.lineHeight": 24,
-  "eslint.autoFixOnSave": true,
-  "editor.formatOnSave": false,
-  "eslint.validate": [
-    {
-      "language": "javascript",
-      "autoFix": true
-    },
-    {
-      "language": "javascriptreact",
-      "autoFix": true
-    },
-    {
-      "language": "typescript",
-      "autoFix": true
-    },
-    {
-      "language": "typescriptreact",
-      "autoFix": true
-    }
-  ],
-  "editor.rulers": [
-    80,
-    120
-  ],
-  "editor.tabSize": 2, 
-  "editor.renderLineHighlight": "gutter",
-  "terminal.integrated.fontSize": 14,
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "breadcrumbs.enabled": true,
-  "editor.parameterHints.enabled": false,
-}
+// {
+//   "workbench.iconTheme": "material-icon-theme",
+//   "editor.fontFamily": "'Fira Code'",
+//   "editor.fontLigatures": true,
+//   "workbench.colorTheme": "Dracula",
+//   "terminal.integrated.fontFamily": "monospace",
+//   "editor.fontSize": 18,
+//   "editor.lineHeight": 24,
+//   "eslint.autoFixOnSave": true,
+//   "editor.formatOnSave": false,
+//   "eslint.validate": [
+//     {
+//       "language": "javascript",
+//       "autoFix": true
+//     },
+//     {
+//       "language": "javascriptreact",
+//       "autoFix": true
+//     },
+//     {
+//       "language": "typescript",
+//       "autoFix": true
+//     },
+//     {
+//       "language": "typescriptreact",
+//       "autoFix": true
+//     }
+//   ],
+//   "editor.rulers": [
+//     80,
+//     120
+//   ],
+//   "editor.tabSize": 2,
+//   "editor.renderLineHighlight": "gutter",
+//   "terminal.integrated.fontSize": 14,
+//   "javascript.updateImportsOnFileMove.enabled": "never",
+//   "breadcrumbs.enabled": true,
+//   "editor.parameterHints.enabled": false,
+// }
