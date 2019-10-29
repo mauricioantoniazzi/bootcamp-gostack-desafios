@@ -6,7 +6,7 @@ import authConfig from '../../config/auth';
 class SessionController {
   async store(req, res) {
     const { email, password } = req.body;
-    console.log('email: ', email);
+
     const user = await User.findOne({
       where: { email },
     });
@@ -26,6 +26,12 @@ class SessionController {
         id,
         name,
         email,
+<<<<<<< HEAD
+=======
+        token: jwt.sign({ id }, authConfig.secret, {
+          expiresIn: authConfig.expiresIn,
+        }),
+>>>>>>> 9a2da7e16dd0034d1598cce97560ae896ad2dc29
       },
       token: jwt.sign({ id }, authConfig.secret, {
         expiresIn: authConfig.expiresIn,
